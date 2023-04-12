@@ -3,21 +3,21 @@
     margin: 0 auto;
 }
 .user-image-size {
-    height: 56px;
+    height: 58px;
     margin: 4px 0;
 }
 .main-body {
     background-color: #F28487;
     color: white;
-    height: calc(100vh - 64px);
+    height: calc(97vh - 64px);
 }
 .materialboxed-image {
     margin: 0 auto;
-    height: 400px;
+    height: 250px;
 }
 .click-me-button {
     background-color: #EE6E73;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 
