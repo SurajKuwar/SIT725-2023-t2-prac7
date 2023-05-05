@@ -5,7 +5,7 @@ const clickMe = () => {
 const addCards = (items) => {
     console.log(items);
     items.forEach(item => {
-        let itemToAppend = '<div class="col s4 center-align" style="background-color: royalblue;"> <div class="card medium"   style="background-color: lightcyan;"><div class="card-image waves-effect waves-block waves-light"><img class="activator" src="'+ item.image +'"></img></div><div class="card-content"><span class="card-title activator grey-text text-darken-4">'+ item.title +'<i class="material-icons right">more_vert</i></span><p><a href="#">Flavoured item</a></p></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">'+item.title+'<i class="material-icons right">close</i></span><p class="card-text">'+item.description+'</p></div></div></div>';
+        let itemToAppend = '<div class="col s4 center-align" style="background-color: royalblue;"> <div class="card medium"   style="background-color: lightcyan;"><div class="card-image waves-effect waves-block waves-light"><img class="activator" src="'+ item.image +'"></img></div><div class="card-content"><span class="card-title activator grey-text text-darken-4">'+ item.title +'<i class="material-icons right">more_vert</i></span><p><a href="#">Pet Description</a></p></div><div class="card-reveal"><span class="card-title grey-text text-darken-4">'+item.title+'<i class="material-icons right">close</i></span><p class="card-text">'+item.description+'</p></div></div></div>';
         $('#card-section').append(itemToAppend);
     });
 }
